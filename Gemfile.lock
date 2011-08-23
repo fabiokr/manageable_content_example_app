@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/fabiokr/manageable_content.git
+  revision: 285897d57068a8062ffd24cdec3bb5d40cf2b76b
+  specs:
+    manageable_content (0.1.0)
+      rails (~> 3.1.0.rc6)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -97,6 +104,7 @@ PLATFORMS
 
 DEPENDENCIES
   jquery-rails
+  manageable_content!
   rails (= 3.1.0.rc6)
   sass-rails (~> 3.1.0.rc)
   sqlite3
