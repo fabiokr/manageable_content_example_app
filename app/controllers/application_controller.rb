@@ -3,4 +3,5 @@ class ApplicationController < ActionController::Base
   protect_from_forgery
 
   manageable_content_for :title
+  manageable_layout_content_for :footer
 end
