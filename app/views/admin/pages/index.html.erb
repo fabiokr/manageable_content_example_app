@@ -1,2 +1,15 @@
 <h1>Admin::Pages#index</h1>
-<p>Find me in app/views/admin/pages/index.html.erb</p>
+<table>
+  <thead>
+    <th>Page</th>
+    <th></th>
+  <thead>
+  <tbody>
+    <% @pages.each do |page| %>
+      <tr>
+        <td><%= page.key.titleize %></td>
+        <td><%= link_to 'edit', edit_admin_page_path(page) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
